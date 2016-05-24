@@ -1,4 +1,3 @@
-# Lab7
 <?php
     error_reporting(E_ALL);
     
@@ -20,7 +19,7 @@
             $content = fopen($_FILES["testfile"]["tmp_name"], "r");
             $blob_name = hash( "sha256", uniqid("awu4hzkf29384hf", true)."jd9hr123794hrf", false );
             $container_name= "files";
-            $url = "https://mdavydovlab7.blob.core.windows.net/files/".$blob_name;
+            $url = "https://ivannaseneyko1996.blob.core.windows.net/files/".$blob_name;
             
             try
             {
